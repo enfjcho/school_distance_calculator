@@ -130,7 +130,7 @@ with st.sidebar:
     if use_departure_time:
         col1, col2 = st.columns(2)
         with col1:
-            departure_hour = st.number_input("시", min_value=0, max_value=23, value=8)
+            departure_hour = st.number_input("시", min_value=0, max_value=23, value=7)
         with col2:
             departure_minute = st.number_input("분", min_value=0, max_value=59, value=0)
         
